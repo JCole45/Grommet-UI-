@@ -20,19 +20,24 @@ function App() {
           </Box>
           <Box direction="row" justify="between">
             <Box width="small" background="light-2" style={{ width: "20%" }}>
-              <Table >
+              <Table>
+                <div class="info">
+                  <span>
+                    <div > <img class="img" height="40" width="40" src={a} />John Coleman</div>
+                  </span>
+                </div>
                 
                 
                 <TableBody>
-                    <TableRow >
+                  <div class="info">
+                    <TableRow style={{height:20}}>
                       <TableCell>
-                      <span>
-                     <img class="img" height="40" width="40" src={a} /> John Coleman
-                  </span>
-                       </TableCell>
+                        <p></p>
+                      </TableCell>
 
 
                     </TableRow>
+                  </div>
 
 
                   <TableRow>
