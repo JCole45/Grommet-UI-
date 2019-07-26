@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.container  {
+  text-align: center;
+}
+
+.img {
+  border-radius: 50%;
+}
+
+.info2 {
+  height: 40px;
+  font-size: 15px;
+  color: grey;
+  
+ }
+ 
+
+.info {
+ height: 20px;
+ font-size: 15px;
+ color: grey;
+ padding: 5px
+}
+
+.block {
+  border-radius: 25px
+}
+
+.name {
+  color: slateblue
+}
+
+.text1 {
+  font-size: 15px;
+  color: white
+}
+.text2 {
+  font-size: 20px;
+  color: white
+
+}
+.text3 {
+  font-size: 10px;
+  color: white
+
+}
+
+.box1 {
+  width: 80px;
+  border: 2px solid green;
+  height: 30px;
+  padding: 2px;
+  margin: 1px;
+  background: green
+}
+.box2 {
+  width: 80px;
+  border: 2px solid blueviolet;
+  height: 30px;
+  padding: 2px;
+  margin: 1px;
+  background: blueviolet
+}
+.box3 {
+  width: 80px;
+  border: 2px solid pink;
+  height: 30px;
+  padding: 2px;
+  margin: 1px;
+  background: pink
+}
+.box4 {
+  width: 80px;
+  border: 2px solid slategray;
+  height: 30px;
+  padding: 2px;
+  margin: 1px;
+  background: slategray
+}
+.box5 {
+  width: 80px;
+  border: 2px solid tomato;
+  height: 30px;
+  padding: 2px;
+  margin: 1px;
+  background: tomato
+}
+.header2 {
+  font-size: 45
+}
