@@ -104,7 +104,8 @@ function App() {
               alignContent='top'
               alignSelf="top"
               pad={{ vertical: 'xlarge', horizontal: 'xlarge' }}
-              elevation='medium'>
+              elevation='medium'> 
+
                         <div><strong>Dashboard</strong></div>
 
 
@@ -112,7 +113,7 @@ function App() {
                 style={{ width: 2300 }} alignSelf="center" justify='between'>
                  
                  <div class="block">
-                <Box class="block" background='accent-2' style={{ width: 240, height: 200 }} pad={{ vertical: 'medium', horizontal: 'large' }}>
+                <Box class="block" background='accent-2' style={{ width: 240, height: 180 }} pad={{ vertical: 'medium', horizontal: 'large' }} round="small">
                   <div><Image/></div>
                   <div class="text1">Stock total</div>
                   <div class="text2">$150,000</div>
@@ -121,7 +122,7 @@ function App() {
                 </div>
 
                 <div class="block">
-                  <Box class="block" background='neutral-2' style={{ width: 240, height: 200 }} pad={{ vertical: 'medium', horizontal: 'large' }}>
+                  <Box class="block" background='neutral-2' style={{ width: 240, height: 180 }} pad={{ vertical: 'medium', horizontal: 'large' }} round="small">
                     <div><Database/></div>
                     <div class="text1">Stock total</div>
                     <div class="text2">$150,000</div>
@@ -131,7 +132,7 @@ function App() {
                 </div>
 
                 <div class="block">
-                  <Box class="block" background='accent-4' style={{ width: 240, height: 200 }} pad={{ vertical: 'medium', horizontal: 'large' }}>
+                  <Box class="block" background='accent-4' style={{ width: 240, height: 180 }} pad={{ vertical: 'medium', horizontal: 'large' }} round="small">
                    <div><FlagFill/></div>
                     <div class="text1">Stock total</div>
                     <div class="text2">$150,000</div>
